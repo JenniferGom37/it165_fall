@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me - Jennifer</title>
+
+
+
+</head>
+<body>
+<header>
+<h1>Contact Me</h1>
+<nav>
+<a href="index.html">Home</a> |
+<a href="contact.html">Contact Me</a>
+</nav>
+</header>
+
+<main>
+<h2>Get in Touch</h2>
+<p>Thank you for visiting my personal portfolio!</p>
+<p>I enjoy learning about cybersecurity,
+networking, and web development.</p>
+
+<section>
+<h3>Contact Form</h3>
+
+<form action="#" method="POST">
+<label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname"
+minlength="3" required>
+<br><br>
+
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email"
+required>
+<br><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone"
+pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+placeholder="123-456-7890"
+title="Use format 123-456-7890">
+<br><br>
+
+<label for="subject">Subject:</label>
+<select id="subject" name="subject" required>
+<option value="">Select a subject</option>
+<option value="general">General Inquiry</option>
+<option value="cybersecurity">Cybersecurity</option>
+<option value="networking">Networking</option>
+<option value="other">Other</option>
+</select>
+<br><br>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message"
+minlength="10" required></textarea>
+<br><br>
+
+<button type="submit">Send Message</button>
+</form>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2026 Jennifer | Monroe University</p>
+</footer>
+</body>
+</html>
