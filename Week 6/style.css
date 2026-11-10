@@ -1,0 +1,70 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #f4f4f9;
+padding: 30px;
+}
+
+h1, h2 {
+color: #333;
+}
+
+.card {
+background-color: white;
+padding: 25px;
+margin: 30px auto;
+width: 280px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+transition: transform 0.3s ease,
+box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.animated-box {
+width: 150px;
+padding: 30px;
+margin: 30px auto;
+background-color: lightblue;
+border: 6px solid red;
+animation: rotateColors 4s infinite;
+}
+
+@keyframes rotateColors {
+0% {
+transform: rotate(0deg);
+border-color: red;
+}
+
+50% {
+transform: rotate(180deg);
+border-color: blue;
+}
+
+100% {
+transform: rotate(360deg);
+border-color: green;
+}
+}
+
+.slideshow img {
+width: 350px;
+max-width: 100%;
+height: 230px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+button {
+padding: 10px 20px;
+margin: 10px;
+cursor: pointer;
+background-color: #3366cc;
+color: white;
+border: none;
+border-radius: 6px;
+}
